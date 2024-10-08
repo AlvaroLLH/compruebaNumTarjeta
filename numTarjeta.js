@@ -1,3 +1,4 @@
+"use strict";
 // Álvaro Llamas Huerta
 
     /*
@@ -7,5 +8,8 @@
 
     // Función que verifica si el número de 16 dígitos es correcto
     function verificarNumeroTarjeta($numero) {
+        
+        // Declaración de variables
+        let numeros = $numero.slice(0,15); // Separamos en dígitos únicos
         
     }
